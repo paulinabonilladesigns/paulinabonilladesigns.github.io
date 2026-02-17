@@ -15,40 +15,71 @@ h1 {
 
 a {
     color: #86A1D3;
+	text-decoration: none;
 }
 
 a:hover {
     color: #FCE6F0;
 }
 
-
 header {
 	background-color: #FCE6F0; /* papercat pink */
 	text-align: center;
 }
 
-nav ul li a {
-	text-decoration: none;
-	color:#86A1D3;
-	font-size: 25px;
-	font-weight: bold;
-	font-family: 'Quicksand', sans-serif;
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px 20px;
+    box-sizing: border-box;
 }
 
-.sidebar {
-  width: 250px;
-  height: 100vh;
-  position: fixed;
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 20px;
+}
+
+nav ul li a {
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .content {
-  margin-left: 250px;
-  padding: 40px;
+    margin-left: 250px;
+    padding: 60px;
+}
+
+/* ===== Portfolio Grid ===== */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.03);
+    opacity: 0.8;
 }
 
 footer {
 	color: #86A1D3;
 	text-align: center;
-	padding: 10px;
+	padding: 20px;
+    margin-left: 250px;
 	background-color:#FFFFFF;
 }
