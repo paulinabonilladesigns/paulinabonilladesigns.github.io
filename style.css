@@ -24,6 +24,7 @@ a:hover {
 
 header {
 	background-color: #FCE6F0; /* papercat pink */
+	text-align: center;
 }
 
 nav ul li a {
@@ -32,6 +33,17 @@ nav ul li a {
 	font-size: 25px;
 	font-weight: bold;
 	font-family: 'Quicksand', sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 40px;
 }
 
 footer {
