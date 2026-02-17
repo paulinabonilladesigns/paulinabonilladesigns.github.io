@@ -1,6 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 header {
 	background-color: #FCE6F0; /* papercat pink */
 }
