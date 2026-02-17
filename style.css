@@ -1,19 +1,29 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-.quicksand-<uniquifier> {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #ffffff;
+    color: #86A1D3;
+    line-height: 1.6;
 }
+
+h1 {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #86A1D3;
+}
+
+a:hover {
+    color: #FCE6F0;
+}
+
 
 header {
 	background-color: #FCE6F0; /* papercat pink */
-}
-body {
-  background-color: #ffffff;  /* white */
 }
 
 nav ul li a {
@@ -21,7 +31,7 @@ nav ul li a {
 	color:#86A1D3;
 	font-size: 25px;
 	font-weight: bold;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: 'Quicksand', sans-serif;
 }
 
 footer {
