@@ -28,6 +28,7 @@ header {
 }
 
 h2 {
+	font-weight: 450;
 	text-align: center;
 }
 
@@ -69,6 +70,6 @@ footer {
 	color: #86A1D3;
 	text-align: center;
 	padding: 20px;
-    margin-left: 250px;
+    margin-left: 0px;
 	background-color:#FFFFFF;
 }
