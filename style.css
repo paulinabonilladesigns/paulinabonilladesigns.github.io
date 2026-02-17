@@ -12,15 +12,15 @@ h4{}
 
 nav ul li a {
 	text-decoration: none;
-	color:#E04AB6;
+	color:#86A1D3;
 	font-size: 25px;
 	font-weight: bold;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
+
 footer {
-	color: #61594C;
+	color: #86A1D3;
 	text-align: center;
 	padding: 10px;
-	background-color:#70A7EA;
-	
+	background-color:#FFFFFF;
 }
