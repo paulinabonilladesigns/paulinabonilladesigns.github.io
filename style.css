@@ -28,7 +28,7 @@ header {
 }
 
 .logo img {
-    height: 512px; /* adjust based on your logo */
+    height: 384px; /* adjust based on your logo */
     width: auto;
     display: block;
     margin: 0 auto 20px auto;
