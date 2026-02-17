@@ -1,1 +1,51 @@
+/* ===== Reset some default spacing ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Page Background ===== */
+body {
+    background-color: #FCE6F0;  /* papercat pink */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    color: #333;  /* default text color */
+    line-height: 1.6;
+    padding: 40px;
+}
+
+/* ===== Headings ===== */
+h1 {
+    color: #86A1D3;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #86A1D3;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* ===== Paragraphs ===== */
+p {
+    margin-bottom: 15px;
+}
+
+/* ===== Links ===== */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005fa3;
+    text-decoration: underline;
+}
+
+/* ===== Container (optional but nice) ===== */
+.container {
+    max-width: 900px;
+    margin: auto;
+}
 
