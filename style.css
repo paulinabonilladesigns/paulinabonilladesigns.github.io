@@ -19,11 +19,15 @@ a {
 }
 
 a:hover {
-    color: #FCE6F0;
+    color: #784144;
 }
 
 header {
 	background-color: #FCE6F0; /* papercat pink */
+	text-align: center;
+}
+
+h2 {
 	text-align: center;
 }
 
