@@ -1,14 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 
-h1 {
-    
+header {
+	background-color: #FCE6F0; /* papercat pink */
 }
-h2 {}
-
-h3{}
-
-h4{}
+body {
+  background-color: #ffffff;  /* white */
+}
 
 nav ul li a {
 	text-decoration: none;
