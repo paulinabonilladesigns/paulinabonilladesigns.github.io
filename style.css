@@ -13,6 +13,10 @@ h1 {
     letter-spacing: 1px;
 }
 
+h2 {
+	text-align: center,
+}
+	
 a {
     color: #86A1D3;
 	text-decoration: none;
