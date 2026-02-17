@@ -32,7 +32,7 @@ header {
 }
 
 .logo img {
-    height: 256px; /* adjust based on your logo */
+    height: 200px; /* adjust based on your logo */
     width: auto;
     display: block;
     margin: 0 auto 25px auto;
@@ -49,7 +49,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
 }
 
