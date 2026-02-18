@@ -58,6 +58,10 @@ nav a {
 .project {
     text-align: center;
 }
+.project img {
+    height: 480px;  
+    width: auto;    
+}
 
 footer {
 	color: #86A1D3;
