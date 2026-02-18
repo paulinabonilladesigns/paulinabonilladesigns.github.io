@@ -55,21 +55,8 @@ nav a {
 
 /* ===== Portfolio Grid ===== */
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 40px;
-}
-
-.gallery img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.gallery img:hover {
-    transform: scale(1.03);
-    opacity: 0.8;
+.project {
+    text-align: center;
 }
 
 footer {
