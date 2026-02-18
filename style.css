@@ -59,8 +59,8 @@ nav a {
     text-align: center;
 }
 .project img {
-    height: auto;  
-    width: 250px;    
+    max-height: 250px;
+    width: auto;
 }
 
 footer {
