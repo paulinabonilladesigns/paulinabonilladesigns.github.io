@@ -70,3 +70,7 @@ footer {
     margin-left: 0px;
 	background-color:#FFFFFF;
 }
+h2 {
+    text-align: center !important;
+    background: yellow;
+}
