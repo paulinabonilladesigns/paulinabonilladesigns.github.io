@@ -62,6 +62,13 @@ nav a {
     max-height: 250px;
     width: auto;
 }
+.works {
+    text-align: center;
+}
+.works img {
+    max-height: 250px;
+    max-width: 250px;
+}
 
 footer {
 	color: #86A1D3;
