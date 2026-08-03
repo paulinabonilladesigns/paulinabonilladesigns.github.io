@@ -63,8 +63,12 @@ nav a {
     width: auto;
 }
 .works {
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
 }
+
 .works img {
     width: 150px;
     height: 150px;
