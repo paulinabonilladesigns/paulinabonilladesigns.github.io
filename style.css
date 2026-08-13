@@ -67,8 +67,8 @@ nav a {
     justify-items: center;
     gap: 30px;
 }
-
-.works img {
+.works img,
+.works video {
     width: 500px;
     height: auto;
     display: block;
