@@ -64,14 +64,15 @@ nav a {
 }
 .works {
     display: grid;
-    grid-template-columns: repeat(3, 350px);
-    gap: 20px;
-    justify-items: center;
+    grid-template-columns: repeat(auto-fit, 350px);
+    gap: 30px;
+    justify-content: center;
 }
 
 .works img {
-    width: 100%;
+    width: 350px;
     height: auto;
+    display: block;
 }
 footer {
 	color: #86A1D3;
