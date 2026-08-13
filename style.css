@@ -64,13 +64,12 @@ nav a {
 }
 .works {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 350px);
+    justify-items: center;
     gap: 30px;
-    justify-content: center;
 }
 
 .works img {
-    width: 350px;
+    width: 500px;
     height: auto;
     display: block;
 }
