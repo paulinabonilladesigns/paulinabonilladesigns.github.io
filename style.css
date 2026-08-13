@@ -16,6 +16,12 @@ h1 {
 h2 {
 	text-align: center;
 }
+
+h3 {
+    text-align: center;
+    max-width: 700px;
+    margin: 30px auto;
+}
 	
 a {
     color: #86A1D3;
