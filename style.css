@@ -81,11 +81,9 @@ nav a {
     display: block;
 }
 footer {
-	color: #86A1D3;
-	text-align: center;
-	padding: 20px;
-    margin-left: 0px;
-	background-color:#FFFFFF;
+    color: #86A1D3;
+    text-align: center;
+    padding: 40px 20px;
 }
 h2 {
     text-align: center;
